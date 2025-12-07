@@ -1,4 +1,4 @@
-# breast cancer classification prediction model
+# breast cancer classification with jupyter
 
 this project uses logistic regression to classify breast cancer tumors as malignant or benign based on various cell features. this is implemented as a jupyter notebook for interactive exploration and learning about binary classification.
 
@@ -8,23 +8,17 @@ we're building a classification model that predicts whether a breast tumor is ma
 
 ## how to run it
 
-first install the dependencies:
-
-```
-pip install -r req.txt
-```
-
-then start the jupyter notebook:
-
-```
-jupyter notebook notebook.ipynb
-```
-
-or simply use the init script:
+simply use the init script:
 
 ```
 ./init.sh
 ```
+
+this will:
+1. create a virtual environment
+2. activate it
+3. install all dependencies
+4. launch jupyter notebook
 
 the notebook will open in your browser. you can run through all the cells to see the full analysis, from loading the data to training the model and evaluating predictions with confusion matrices and probability distributions.
 
